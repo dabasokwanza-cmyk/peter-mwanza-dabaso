@@ -70,7 +70,7 @@ document.getElementById('contactForm').addEventListener('submit',e=>{
     `Name: ${data.get('name')}\nSublocation: ${data.get('sublocation')}\nPhone: ${data.get('phone')}\nEmail: ${data.get('email')}\n\nMessage:\n${data.get('message')}`
   );
   document.getElementById('formMessage').textContent='Opening your email app with the message prepared…';
-  window.location.href=`mailto:Dabadokwanza@gmail.com?subject=${subject}&body=${body}`;
+  window.location.href=`mailto:Dabasokwanza@gmail.com?subject=${subject}&body=${body}`;
 });
 
 document.addEventListener('keydown',e=>{
